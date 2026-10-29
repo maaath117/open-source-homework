@@ -1,0 +1,572 @@
+INFO: Apache Creadur RAT 0.18 (Apache Software Foundation)
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+WARN: Unsupported character set 'IBM424_ltr' in file '\src\test\resources\org\apache\commons\csv\CSV-213\999751170.patch.csv'
+*****************************************************
+Summary
+*****************************************************
+Generated at: 2026-10-29T18:25:03+08:00
+    by Apache Creadur RAT 0.18 (Apache Software Foundation)
+
+-----------------------------------------------------
+Counters
+-----------------------------------------------------
+    (Entries starting with '!' exceed the minimum or maximum values)
+  Approved:           80    A count of approved licenses.
+  Archives:           1    A count of archive files.
+  Binaries:           5    A count of binary files.
+  Document types:     6    A count of distinct document types.
+  Ignored:            1    A count of ignored files.
+  License categories: 2    A count of distinct license categories.
+  License names:      2    A count of distinct license names.
+  Notices:            4    A count of notice files.
+  Standards:          102    A count of standard files.
+! Unapproved:         22    A count of unapproved licenses.
+  Unknown:            23    A count of unknown file types.
+
+
+-----------------------------------------------------
+Licenses detected
+-----------------------------------------------------
+
+Apache License 2.0: 80 
+Unknown license: 22 
+
+-----------------------------------------------------
+License Categories detected
+-----------------------------------------------------
+
+?????: 22 
+AL   : 80 
+
+-----------------------------------------------------
+Document Types detected
+-----------------------------------------------------
+
+ARCHIVE: 1 
+BINARY: 5 
+IGNORED: 1 
+NOTICE: 4 
+STANDARD: 102 
+UNKNOWN: 1 
+
+*****************************************************
+Files with unapproved licenses
+*****************************************************
+
+  /.gitignore
+  /src/test/resources/org/apache/commons/csv/CSV-141/csv-141.csv
+  /src/test/resources/org/apache/commons/csv/CSV-196/emoji.csv
+  /src/test/resources/org/apache/commons/csv/CSV-196/japanese.csv
+  /src/test/resources/org/apache/commons/csv/CSV-198/optd_por_public.csv
+  /src/test/resources/org/apache/commons/csv/CSV-254/csv-254.csv
+  /src/test/resources/org/apache/commons/csv/CSV-259/sample.txt
+  /src/test/resources/org/apache/commons/csv/CSV-290/psql.csv
+  /src/test/resources/org/apache/commons/csv/CSV-290/psql.tsv
+  /src/test/resources/org/apache/commons/csv/CSVFileParser/bom.csv
+  /src/test/resources/org/apache/commons/csv/CSVFileParser/test.csv
+  /src/test/resources/org/apache/commons/csv/CSVFileParser/testCSV246.csv
+  /src/test/resources/org/apache/commons/csv/CSVFileParser/testCSV246_checkWithNoComment.txt
+  /src/test/resources/org/apache/commons/csv/CSVFileParser/testCSV85.csv
+  /src/test/resources/org/apache/commons/csv/CSVFileParser/testCSV85_default.txt
+  /src/test/resources/org/apache/commons/csv/CSVFileParser/testCSV85_ignoreEmpty.txt
+  /src/test/resources/org/apache/commons/csv/CSVFileParser/test_default.txt
+  /src/test/resources/org/apache/commons/csv/CSVFileParser/test_default_comment.txt
+  /src/test/resources/org/apache/commons/csv/CSVFileParser/test_rfc4180.txt
+  /src/test/resources/org/apache/commons/csv/CSVFileParser/test_rfc4180_trim.txt
+  /src/test/resources/org/apache/commons/csv/csv-167/sample1.csv
+  /src/test/resources/org/apache/commons/csv/empty.txt
+
+*****************************************************
+Archives
+*****************************************************
+
+ /src/test/resources/org/apache/commons/csv/perf/worldcitiespop.txt.gz
+
+*****************************************************
+Detail
+*****************************************************
+
+  Documents with unapproved licenses will start with a '!'
+  The first character on the next line identifies the document type.
+   
+   char         type
+    A       Archive file
+    B       Binary file
+    I       Ignored file
+    N       Notice file
+    S       Standard file
+    U       Unknown file.
+  
+  /.asf.yaml
+  S         text/x-yaml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /.gitattributes
+  S         text/plain    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /.github
+  I         application/octet-stream     (directory)
+
+! /.gitignore
+  S         text/plain    ISO-8859-1
+    ?????    ?????         Unknown license (Unapproved)
+
+  /BENCHMARK.md
+  S         text/x-web-markdown    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /CODE_OF_CONDUCT.md
+  S         text/x-web-markdown    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /CONTRIBUTING.md
+  S         text/x-web-markdown    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /LICENSE.txt
+  N         text/plain    ISO-8859-1
+
+  /NOTICE.txt
+  N         text/plain    ISO-8859-1
+
+  /README.md
+  S         text/x-web-markdown    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /RELEASE-NOTES.txt
+  N         text/plain    ISO-8859-1
+
+  /SECURITY.md
+  S         text/x-web-markdown    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /benchmark-prereq.sh
+  B         application/x-sh    
+
+  /pom.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/assembly/bin.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/assembly/src.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/changes/changes.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/changes/release-notes.vm
+  S         text/plain    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/conf/checkstyle/checkstyle-header.txt
+  S         text/plain    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/conf/checkstyle/checkstyle-suppressions.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/conf/checkstyle/checkstyle.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/csv/CSVException.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/csv/CSVFormat.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/csv/CSVParser.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/csv/CSVPrinter.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/csv/CSVRecord.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/csv/Constants.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/csv/DuplicateHeaderMode.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/csv/Lexer.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/csv/QuoteMode.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/csv/Token.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/csv/package-info.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/javadoc/overview.html
+  S         text/html    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/resources/download_csv.cgi
+  B         application/x-sh    
+
+  /src/site/resources/images/logo.png
+  B         image/png    
+
+  /src/site/resources/images/logo.xcf
+  B         image/x-xcf    
+
+  /src/site/resources/pmd/pmd-ruleset.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/resources/profile.jacoco
+  S         text/plain    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/resources/spotbugs/spotbugs-exclude-filter.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/site.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/xdoc/download_csv.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/xdoc/index.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/xdoc/issue-tracking.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/xdoc/mail-lists.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/xdoc/security.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/xdoc/user-guide.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/CSVBenchmark.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/CSVDuplicateHeaderTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/CSVFileParserTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/CSVFormatPredefinedTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/CSVFormatTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/CSVParserTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/CSVPrinterTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/CSVRecordTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/CsvAssertions.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/ExtendedBufferedReaderTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/JiraCsv196Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/JiraCsv318Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/LexerTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/PerformanceTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/TokenTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/UserGuideTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/Utils.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv148Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv149Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv150Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv154Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv167Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv198Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv203Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv206Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv211Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv213Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv247Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv248Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv249Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv253Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv254Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv257Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv263Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv264Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv265Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv271Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv288Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv290Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv294Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/issues/JiraCsv93Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/csv/perf/PerformanceTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+! /src/test/resources/org/apache/commons/csv/CSV-141/csv-141.csv
+  S         text/csv    ISO-8859-1
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/CSV-196/emoji.csv
+  S         text/csv    UTF-8
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/CSV-196/japanese.csv
+  S         text/csv    UTF-8
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/CSV-198/optd_por_public.csv
+  S         text/csv    ISO-8859-1
+    ?????    ?????         Unknown license (Unapproved)
+
+  /src/test/resources/org/apache/commons/csv/CSV-213/999751170.patch.csv
+  U         text/csv    
+
+  /src/test/resources/org/apache/commons/csv/CSV-248/csvRecord.bin
+  B         application/octet-stream    
+
+! /src/test/resources/org/apache/commons/csv/CSV-254/csv-254.csv
+  S         text/csv    ISO-8859-1
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/CSV-259/sample.txt
+  S         text/plain    ISO-8859-2
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/CSV-290/psql.csv
+  S         text/csv    ISO-8859-2
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/CSV-290/psql.tsv
+  S         text/tab-separated-values    ISO-8859-1
+    ?????    ?????         Unknown license (Unapproved)
+
+  /src/test/resources/org/apache/commons/csv/CSVFileParser/README.txt
+  N         text/plain    ISO-8859-1
+
+! /src/test/resources/org/apache/commons/csv/CSVFileParser/bom.csv
+  S         text/csv    UTF-8
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/CSVFileParser/test.csv
+  S         text/csv    ISO-8859-1
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/CSVFileParser/testCSV246.csv
+  S         text/csv    ISO-8859-1
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/CSVFileParser/testCSV246_checkWithNoComment.txt
+  S         text/plain    ISO-8859-1
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/CSVFileParser/testCSV85.csv
+  S         text/csv    ISO-8859-1
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/CSVFileParser/testCSV85_default.txt
+  S         text/plain    ISO-8859-1
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/CSVFileParser/testCSV85_ignoreEmpty.txt
+  S         text/plain    ISO-8859-1
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/CSVFileParser/test_default.txt
+  S         text/plain    ISO-8859-1
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/CSVFileParser/test_default_comment.txt
+  S         text/plain    ISO-8859-1
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/CSVFileParser/test_rfc4180.txt
+  S         text/plain    ISO-8859-1
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/CSVFileParser/test_rfc4180_trim.txt
+  S         text/plain    ISO-8859-1
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/csv-167/sample1.csv
+  S         text/csv    ISO-8859-1
+    ?????    ?????         Unknown license (Unapproved)
+
+! /src/test/resources/org/apache/commons/csv/empty.txt
+  S         text/plain    UTF-8
+    ?????    ?????         Unknown license (Unapproved)
+
+  /src/test/resources/org/apache/commons/csv/perf/worldcitiespop.txt.gz
+  A         application/gzip    
+
+
+INFO: RAT summary:
+INFO: 
+  Approved:  80
+INFO: 
+  Archives:  1
+INFO: 
+  Binaries:  5
+INFO: 
+  Document types:  6
+INFO: 
+  Ignored:  1
+INFO: 
+  License categories:  2
+INFO: 
+  License names:  2
+INFO: 
+  Notices:  4
+INFO: 
+  Standards:  102
+INFO: 
+  Unapproved:  22
+INFO: 
+  Unknown:  23
+ERROR: Unexpected count for UNAPPROVED, limit is [0,0].  Count: 22
+Exception in thread "main" org.apache.rat.document.RatDocumentAnalysisException: Issues with UNAPPROVED
+	at org.apache.rat.Report.main(Report.java:60)
